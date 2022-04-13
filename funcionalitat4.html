@@ -21,6 +21,9 @@
         font-size: 25px;
         text-align: center;
       }
+      button > img {
+        width: 30px;
+      }
       #botoTancar {
         float: right;
         margin: 15px;
@@ -59,7 +62,7 @@
         </p>
         <p>Responderemos en pocos segundos</p>
         <p>
-          <button type="button" onclick="mostrarChat()">
+          <button type="button" onclick="chatSat.mostrarChat()">
             <img
               src="./fitxers/MF0491_3-UF1842-PAC-A1-GlobusSuport.png"
               alt="Globus Suport"
@@ -88,7 +91,7 @@
           width="72"
           height="72"
           alt="BotoTancarModal"
-          onclick="tancarChat()"
+          onclick="chatSat.tancarChat()"
         />
       </footer>
     </div>
